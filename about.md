@@ -4,18 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
-### Features
-
-- AMD 64 bit
-- Modern, simplified syscall system
-- GCC toolchain means you can use GDB(!)
-- Clang and Intel C Compiler compatible
-- Compile in Linux, Windows, FreeBSD or OSX using Harvey's headers and libs, no need to change anything else
-- A large set of userland apps available
-- Plans to add a new GUI, a new fileserver, native toolchains and more
-- Go programming language port <a href="https://github.com/Harvey-OS/harvey/wiki/Go-on-Harvey">available</a>.
-
 ### About the Name
 
 So, why "Harvey"? Mostly because we liked it, but there are at least 3 other good reasons based on the origins of Plan 9 operating system:

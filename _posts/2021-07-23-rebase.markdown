@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Harvey Rebased"
+date: "2021-07-23 14:39:00 -0800"
+---
+
+After lots of discussion, the Harvey team has decided to rebase Harvey on the newly-relicensed Plan 9 source. To that end, we have imported the [9legacy](https://9legacy.org) git tree into [the harvey/main branch](https://github.com/Harvey-OS/harvey).
+
+We're planning to bring in some of the kernel changes we'd made previously, and we want to eventually get back to a point where we can compile with C11-compatible compilers (which probably means making kenc also grok C11 to some extent), but there's a few things we want to prioritize as we rebase:
+
+* Self-hosting, because we've found people really prefer to compile their OS within the same OS.
+* Easy installation and distribution, with automatically-built installation media.
+* Continuous integration as we had in Harvey previously.
+* Go as a first-class language: we will ship the Go distribution with Harvey, and we won't hesitate to make tweaks to improve Go performance.
+* Including utilities that make Go dev easier on Plan 9, packing in neat tools like edwood as an acme replacement.
+* Eventually, a Go userspace (perhaps u-root).
+
+If this seems heavily Go-oriented, that's because it is. Go brings with it a featureful standard library and an appealing programming style. It's also possible to run many Go programs under Harvey/Plan 9, Linux, and Windows without any modification, which should help us avoid reinventing some wheels.

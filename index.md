@@ -10,15 +10,21 @@ permalink: /
 <img style="margin-left:10px; float: right;" src="/images/harvey-os-logo.svg" alt="harvey loves you!"/>
 
 # Harvey OS
-### A distributed operating system
 
-## What is Harvey?
+Harvey is an experimental operating system based on the MIT-licensed release of [Plan 9](https://p9f.org). The primary goals of the Harvey project are:
 
-Harvey is an effort to provide a modern, distributed, 64 bit operating system. A different environment for researching and finding new lines of work. It can be built with <a href="https://gcc.gnu.org/">gcc</a> and <a href="http://clang.llvm.org/">clang</a> and has an [ANSI/POSIX compliant subsystem](https://github.com/Harvey-OS/apex/wiki).
+* To build a Plan 9 distribution which is extremely easy to deploy.
+* To ship (and, where necessary, implement from scratch) a useful Go-based userspace.
+* To modernize existing C code as much as possible.
+* To improve the kernel, potentially allowing the inclusion of kernel code implemented in new languages such as Rust.
 
-It runs on x86_64 (amd64) machines. Main work is focused in improving the kernel and userland, trying to bring up a full usable operating system with common tools for development and a USB installation image. It collects many different ideas and concepts that, across many platforms and operating systems, influenced the computing world for years.
+Please note that the Harvey source code has recently been [rebased](/2021/07/23/rebase.html) and it may be some time before all documentation is updated.
 
-Harvey is open source, and it is distributed under [GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+## Getting Started
+
+- [Source code](https://github.com/Harvey-OS/harvey)
+- [Getting started](https://github.com/Harvey-OS/harvey/wiki/Getting-Started)
+- [Wiki](https://github.com/Harvey-OS/harvey/wiki)
 
 -----
 Harvey is a member of [Software Freedom Conservancy](https://github.com/Harvey-OS/harvey/wiki/Conservancy)
@@ -30,8 +36,3 @@ Help Harvey by making a [donation](donate)!
 
 -----
 
-## Getting Started
-
-- [Source code](https://github.com/Harvey-OS/harvey)
-- [Getting started](https://github.com/Harvey-OS/harvey/wiki/Getting-Started)
-- [Wiki](https://github.com/Harvey-OS/harvey/wiki)
