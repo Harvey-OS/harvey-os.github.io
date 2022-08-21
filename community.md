@@ -8,7 +8,7 @@ Harvey has a small group of enthusiasts that spend their free time on it,
 looking, experimenting, testing... but in order to keep things on track, 
 there is a small group of people we usually call "core team" making
 decisions on what gets merged. These people know the system well and are
-a good resource if you have questions. You can find them on the Slack or
+a good resource if you have questions. You can find them on the Matrix space or
 the mailing list.
 
 Come and meet Harvey! it's a lovely rabbit (in case you could see it).
@@ -29,9 +29,9 @@ Come and meet Harvey! it's a lovely rabbit (in case you could see it).
 
 * <a href="https://blog.harvey-os.org">Harvey official blog</a>
 
-### Slack
+### Matrix
 
-* <a href="https://harvey-slack.herokuapp.com/">Harvey Slack channels</a>
+* <a href="https://matrix.to/#/#harvey-os:matrix.org">Harvey Matrix space</a>
 
 ### Donations
 
