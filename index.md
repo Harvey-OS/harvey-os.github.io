@@ -9,6 +9,8 @@ permalink: /
 
 <img style="margin-left:10px; float: right;" src="/images/harvey-os-logo.svg" alt="harvey loves you!"/>
 
+**NOTE**: Harvey [has been retired](/2023/04/23/retirement.html). ⚠️
+
 # Harvey OS
 
 Harvey is an experimental operating system based on the MIT-licensed release of [Plan 9](https://p9f.org). The primary goals of the Harvey project are:
